@@ -2,7 +2,7 @@ from config import Config
 import logging
 
 from telegram.ext import Updater, CommandHandler
-from callbacks import startHandler, logHandler, restartHandler, addAuthUserHandler
+from robot import startHandler, logHandler, restartHandler, addAuthUserHandler
 from filters import AuthFilter
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
