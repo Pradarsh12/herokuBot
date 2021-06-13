@@ -1,0 +1,32 @@
+{
+    "name": "HerokuBot",
+    "logo": "https://telegra.ph/file/68b95061283ccc44da6ce.jpg",
+    "description": "Open-Source bot heroku managment bot.",
+    "keywords": ["heroku", "telegram"],
+    "repository": "https://github.com/tcBots/HEROKUbot",
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "from (@BotFather)",
+            "required": true
+        },
+        "HEROKU_API_KEY": {
+            "description": "Api Key",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Your Heroku App Name.",
+            "required": false,
+            "value": ""
+       },
+        "AUTHORIZED_USERS": {
+            "description": "user id",
+            "required": true
+        }
+    },
+    "buildpacks": [
+       {
+      "url": "heroku/python"
+       }
+     ]
+  }
