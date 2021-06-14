@@ -1,1 +1,1 @@
-python heroku/bot.py
+python3 bot.py
