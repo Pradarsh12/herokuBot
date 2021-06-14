@@ -1,4 +1,4 @@
-from config import Config
+from heroku import Config
 import logging
 
 from telegram.ext import Updater, CommandHandler
