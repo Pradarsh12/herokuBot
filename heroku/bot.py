@@ -1,4 +1,4 @@
-from config import config
+from config import Config
 import logging
 
 from telegram.ext import Updater, CommandHandler
